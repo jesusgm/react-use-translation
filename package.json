@@ -1,0 +1,45 @@
+{
+  "name": "react-use-translation",
+  "version": "1.0.0",
+  "description": "React custom hook to add internationalization to a react project easily",
+  "main": "./index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "release": "np",
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgm/react-use-translation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusgm/react-use-translation/issues"
+  },
+  "homepage": "https://github.com/jesusgm/react-use-translation#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.6",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
+  },
+  "dependencies": {
+    "@testing-library/react-hooks": "^3.4.2",
+    "babel-preset-jest": "^26.6.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "nc": "^1.0.3",
+    "react": "^17.0.1"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  }
+}
